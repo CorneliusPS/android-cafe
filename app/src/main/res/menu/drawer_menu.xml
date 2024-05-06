@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list_menu"
+            android:icon="@drawable/ic_book"
+            android:title="List Menu" />
+        <item
+            android:id="@+id/nav_my_reservation"
+            android:icon="@drawable/ic_pencil"
+            android:title="Add Reservation" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_left_arrow"
+            android:title="Logout" />
+    </group>
+</menu>
